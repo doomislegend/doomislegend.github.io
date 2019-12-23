@@ -4,6 +4,7 @@ $(document).ready(function() {
         before:function() {
             var currSection = $.scrollify.current();
             currSection.addClass('section-in');
+            $('.container-scrolltip').fadeOut('fast');
         }
     });
 
